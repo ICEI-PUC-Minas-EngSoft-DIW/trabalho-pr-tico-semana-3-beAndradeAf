@@ -1,0 +1,63 @@
+/* Reset e fonte */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container geral */
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Cabeçalho */
+.header-cv {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.info-pessoal h1 {
+    margin: 0 0 10px 0;
+}
+
+.info-pessoal p {
+    margin: 4px 0;
+    color: #555;
+}
+
+/* Seções */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* Listas */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
